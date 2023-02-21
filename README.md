@@ -2,7 +2,7 @@
 Presentation's slides at: https://localaization.github.io/pentagrom-presentation/  
 Code at https://github.com/localaization/pentagrom-presentation/blob/gh-pages/index.html
 
-# Thanks to
+# Thanks to reveal.js (you can host it locally too, check bellow)
 
 <p align="center">
   <a href="https://revealjs.com">
