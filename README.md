@@ -1,6 +1,6 @@
 # Pentargom presentation
-A github pages hosted pentagrom's slides at: https://localaization.github.io/pentagrom-presentation/  
-Take a look at the index.html file to check the code.
+Presentation's slides at: https://localaization.github.io/pentagrom-presentation/  
+Code at https://github.com/localaization/pentagrom-presentation/blob/gh-pages/index.html
 
 # Thanks to
 
