@@ -1,5 +1,5 @@
 # Pentargom presentation
-A github pages hosted pentagrom's slides at: https://localaization.github.io/pentagrom-presentation/
+A github pages hosted pentagrom's slides at: https://localaization.github.io/pentagrom-presentation/  
 Take a look at the index.html file to check the code.
 
 # Thanks to
