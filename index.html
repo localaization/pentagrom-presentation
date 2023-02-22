@@ -29,20 +29,22 @@
 				<!-- Personal presentation -->
 				<section class="center">
 					<h2>Team</h2>
-					<p>
-					<small><ul class="space-between">
-						<li>Chad Kensington<br>
-							Drexel University, machine learning and robotics.</li>
-						<li>Dutschida<br>
-							Machine learning and music.</li>
-						<li>EmeraldOdin<br>
-							Machine learning and music.</li>
-						<li>TuWebO<br>
-							Drupal Web developer.</li>
-						<li>Jaime Iglesias<br>
-							Jazz musician, teacher and inventor.</li>					
-					</ul></small>
-				</p>
+						<small>
+							<ul class="space-between">
+								<li>Chad Kensington<br>
+									Drexel University, machine learning and robotics.</li><br>  
+								<li>Dutschida<br>
+									Machine learning and music.</li><br>
+								<li>EmeraldOdin<br>
+									Machine learning and music.</li><br>
+								<li>TuWebO - Localaization<br>
+									Contacting local communities with new technologies.</li><br>
+								<li>Jaime Iglesias<br>
+									Jazz musician, teacher and inventor.</li><br>
+								<li>Algovera Ai<br>
+									Platform, community, organization and suport.</li>	
+							</ul>
+						</small>
 				</section>
 
 				<!-- History -->
@@ -51,7 +53,7 @@
 						<textarea data-template>
 						## History  
 						<small>This project was born in 1993 when Jaime (after many years teaching music) began to think that teaching methods and musical instruments are not 100% efective for the people to learn and play music.<br><br>			
-							Seeing, listening, writting and playing music should be easier.  
+							_Seeing, listening, reading, writting and playing music should be easier._  
 						</small><br><br>
 						So what great musicians visualise when they think about music?				
 						</textarea>
@@ -64,13 +66,42 @@
 						</textarea>
 					</section>
 					<section data-markdown>
-						<textarea data-template>							
+						<textarea data-template>
 							#### The problem  
-							This visualization is not directly and univocally connected to the musical script system, the stave.  
-							<div class="v-hstack">
-								<img src="assets/pentagrom-presentation-011-rotated.png" alt="Stave and piano" style="height: 220px; margin: 0 auto 1rem auto; background: transparent;">
-								<img src="assets/pentagrom-presentation-015.png" alt="ML Encoding decoding" style="height: 220px; margin: 0 auto 1rem auto; background: transparent;">
+							<small>One sound could be written as different notes.  
+							And different notes may correspond to the same key (sound) in the instrument.<br><br>		
+							<img src="assets/fundamentalsofmusictheory-002.png" alt="ML Encoding decoding" style="height: 120px; margin: 0 auto 1rem auto; background: transparent;"><br>
+							The piano could be the most accurate, but one piano key could be represented by more than one written notes.</small>
+							<div>
+								<img src="assets/Piano-Keys-and-Notes-Piano-Keyboard-Diagram-1.jpg" alt="ML Encoding decoding" style="height: 220px; margin: 0 auto 1rem auto; background: transparent;">
+								<!--<img src="assets/pentagrom-presentation-011-rotated.png" alt="Stave and piano" style="height: 220px; margin: 0 auto 1rem auto; background: transparent;">
+								<img src="assets/pentagrom-presentation-015.png" alt="ML Encoding decoding" style="height: 220px; margin: 0 auto 1rem auto; background: transparent;">-->
 							</div>							
+						</textarea>
+					</section>
+					<section data-markdown>
+						<textarea data-template>							
+							##### If we rotate the piano  
+							And get 4 keys for encoding/decoding
+							<div class="r-hstack">
+								<img src="assets/pentagrom-presentation-011-rotated.png" alt="Stave and piano" style="height: 540px; margin: 0 auto 1rem auto; background: transparent;">
+								<img src="assets/pentagrom-presentation-015.png" alt="Stave and piano" style="height: 320px; margin: 0 auto 1rem auto; background: transparent;">
+							</div>							
+						</textarea>
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+							##### Or even 8 keys  
+							<div class="r-hstack">
+								<img src="assets/pentagrom-presentation-011-rotated.png" alt="Stave and piano" style="height: 540px; margin: 0 auto 1rem auto; background: transparent;">
+								<img src="assets/pentagrom-presentation-021.png" alt="Stave and piano" style="height: 540px; margin: 0 auto 1rem auto; background: transparent;">
+							</div>							
+						</textarea>
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+							##### We will be missing some details  
+							Written music have more information than any instrument or midi file could univocally represent.
 						</textarea>
 					</section>
 				</section>
@@ -107,7 +138,23 @@ notes which are half a tone up and down (normally sharps and flats).</div><br>
 					<section data-markdown>
 						<textarea data-template>
 							<div>
-								<img src="assets/pentagrom-presentation-016.png" alt="Pentagrom isomorphism" style="width: 640px; margin: 0 auto 4rem auto; background: transparent;">
+								Every written note can be univocally represented<br>
+								<img src="assets/pentagrom-presentation-003.png" alt="Pentagrom 7x3 matrix" style="width: 640px; margin: 0 auto 4rem auto; background: transparent;">
+							</div>
+						</textarea>
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+							<div>
+								Key signature allows transposition bringing isomorphism<br><br>
+								<img src="assets/pentagrom-presentation-016.png" alt="Pentagrom isomorphism" style="width: 640px; margin: 0 auto 4rem auto; background: transparent;">								
+							</div>
+						</textarea>
+					</section>
+					<section data-markdown>
+						<textarea data-template>
+							<div>
+								<img src="assets/pentagrom-presentation-002.png" alt="Stave" style="width: 640px; margin: 0 auto 4rem auto; background: transparent;">
 							</div>
 						</textarea>
 					</section>
@@ -126,10 +173,14 @@ notes which are half a tone up and down (normally sharps and flats).</div><br>
 				<section data-markdown>
 					<textarea data-template>
 					  ## References  
-					  <small>[Patent](https://patents.google.com/patent/ES2324268B2/es?assignee=jaime+iglesias&oq=jaime+iglesias)  
-					  [Github repo](https://github.com/localaization/pentagrom)  
-					  [Pdf documentation an examples](https://github.com/localaization/pentagrom/tree/master/docs)  
-					  [Youtube](https://www.youtube.com/@pentagrom_es2489/videos)</small>
+					  <small>Technical references can be found in the patent documentation. Some of these references are merely informative and we do not necessarily agree with any conclusion, they are just meant for the user to get the feeling of the music's complexity "behind the scenes".  
+					  [Fundamentals of Theory (An Introduction) - Unit 7: Key Signatures](https://fundamentalsofmusictheory.umasscreate.net/unit-7/)  
+[The Mathematical Problem with Music, and How to Solve It](https://youtu.be/nK2jYk37Rlg)  
+[Theoretical Proofs That C# And Db Are Different Tones](https://www.hearandplay.com/main/theoretical-proofs-that-c-and-db-are-different-tones)  
+[Patent](https://patents.google.com/patent/ES2324268B2/es?assignee=jaime+iglesias&oq=jaime+iglesias)  
+[Github repo](https://github.com/localaization/pentagrom)  
+[Pdf documentation an examples](https://github.com/localaization/pentagrom/tree/master/docs)  
+[Youtube](https://www.youtube.com/@pentagrom_es2489/videos)</small>
 					</textarea>
 				</section>
 				<!-- Thanks -->
